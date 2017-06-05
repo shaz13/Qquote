@@ -1,0 +1,64 @@
+body {
+   font-family: Oswald;
+}
+
+.intro {
+    font-family: 'Lateef', cursive;
+    font-size: 120px;
+    background: -webkit-linear-gradient(right, #348F50, #56B4D3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.wrapper {
+  text-align: center;
+  margin-top: 5%;
+}
+#quran_quotes {
+    font-size: 28px;
+    text-align: center;
+    margin:3% auto 2%;
+    max-width: 800px;
+    background: -webkit-linear-gradient(right, #16222A,#3A6073);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     transition: color 2s ease 0s;
+}
+#get {
+    font-size: 17px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div#quran_ref_quotes, a {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #2b6b64 !important;
+    font-weight: bold;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .intro {
+    font-size: 230px;
+    }
+    .wrapper {
+    text-align: center;
+    margin-top: 15%;
+    }
+    #quran_quotes {
+    font-size: 50px;
+    margin-top: 15%;
+    }
+    #get {
+    width: 60%;
+    height: 10%;
+    top: 86%;
+    left: 50%;
+    font-size: 50px;
+    }
+    div#quran_ref_quotes, a {
+    font-size: 40px;
+    margin-top: 5%;
+    }
+
+}
